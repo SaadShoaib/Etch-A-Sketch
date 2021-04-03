@@ -1,0 +1,26 @@
+* {
+    background-color: pink;
+    --border: black;
+    --background-color: white;
+}
+
+.sub-container {
+    display: grid;
+    margin-top: 70px;
+    height: 500px;
+    width: 500px;
+    border: 2px solid var(--border);
+}
+
+.cell {
+    border: 2px solid var(--border);
+    background-color: var(--background-color);
+}
+
+.btn {
+    font-size: 25px;
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    border: 2px solid white;
+}
