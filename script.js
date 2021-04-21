@@ -2,6 +2,7 @@ const container = document.querySelector(".sub-container");
 
 //creates the grid and fills colors in the cells
 function createGrid(size){
+    container.innerHTML = "";
     container.style.gridTemplateColumns = `repeat(${size}, 1fr)`;
     container.style.gridTemplateRows = `repeat(${size}, 1fr)`;
     let xSize = size * size;

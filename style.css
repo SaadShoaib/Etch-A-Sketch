@@ -1,26 +1,36 @@
 * {
-    background-color: pink;
-    --border: black;
-    --background-color: white;
+  background-color: pink;
+  --border: black;
+  --background-color: white;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .sub-container {
-    display: grid;
-    margin-top: 70px;
-    height: 500px;
-    width: 500px;
-    border: 2px solid var(--border);
+  display: grid;
+  margin-top: 10px;
+  height: 500px;
+  width: 500px;
+  border: 2px solid var(--border);
 }
 
 .cell {
-    border: 2px solid var(--border);
-    background-color: var(--background-color);
+  border: 2px solid var(--border);
+  background-color: var(--background-color);
 }
 
 .btn {
-    font-size: 25px;
-    color: black;
-    background-color: yellow;
-    text-align: center;
-    border: 2px solid white;
+  justify-self: center;
+  font-size: 25px;
+  margin: 5px;
+  color: black;
+  width: 50%;
+  background-color: yellow;
+  text-align: center;
+  border: 2px solid white;
 }
